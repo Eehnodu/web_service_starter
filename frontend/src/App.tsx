@@ -3,6 +3,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./container/main";
 import Posts from "./container/posts";
+import BackendPosts from "./container/backend_posts";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/posts" element={<Posts />} />
+        <Route path="/backend-posts" element={<BackendPosts />} />
       </Routes>
     </BrowserRouter>
   );
