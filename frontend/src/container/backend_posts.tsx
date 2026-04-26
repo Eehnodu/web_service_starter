@@ -79,15 +79,15 @@ const BackendPosts = () => {
           <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-violet-100 text-violet-600">
             FastAPI
           </span>
-          <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-teal-100 text-teal-600">
-            TiDB (MySQL)
+          <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-600">
+            Supabase
           </span>
         </div>
         <h1 className="text-2xl sm:text-4xl font-bold text-neutral-900 mt-2">
           Posts
         </h1>
         <p className="mt-2 text-base sm:text-lg text-neutral-500">
-          FastAPI + TiDB 백엔드 CRUD 실습 페이지입니다.
+          FastAPI + Supabase 백엔드 CRUD 실습 페이지입니다.
         </p>
       </div>
 
@@ -104,7 +104,7 @@ const BackendPosts = () => {
             { label: "→", color: "text-neutral-300", plain: true },
             { label: "Vercel (FastAPI)", color: "bg-violet-50 border-violet-200 text-violet-700" },
             { label: "→", color: "text-neutral-300", plain: true },
-            { label: "TiDB (MySQL)", color: "bg-teal-50 border-teal-200 text-teal-700" },
+            { label: "Supabase", color: "bg-emerald-50 border-emerald-200 text-emerald-700" },
           ].map((item, i) =>
             item.plain ? (
               <span key={i} className={`font-bold ${item.color}`}>
